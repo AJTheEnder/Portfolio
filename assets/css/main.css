@@ -1966,8 +1966,7 @@ input, select, textarea {
 	header {
 		text-align: center;
 	}
-
-		header p {
+			header p {
 			position: relative;
 			top: -1em;
 			color: 3b3b3b;
@@ -2761,6 +2760,12 @@ input, select, textarea {
 		#header .button {
 			background: #ffffff;
 			color: #544d55;
+		}
+
+		#header img {
+			max-width: 20%;
+			max-height: 20%;
+			border-radius: 50%;
 		}
 
 		#header .logo {
